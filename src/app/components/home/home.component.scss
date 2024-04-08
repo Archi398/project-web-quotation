@@ -1,0 +1,41 @@
+mat-card {
+    margin-top: 0.5rem;
+}
+
+span.completed {
+    text-decoration: line-through;
+    padding-left: 6px;
+}
+
+span {
+    color: white;
+}
+
+mat-list-item {
+    position: relative;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+mat-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+
+    @media screen and (max-width: 375px) {
+        margin-right: 0;
+    }
+}
+
+.icon-cross {
+    color: white;
+}
+
+mat-radio-button {
+    color: white;
+}
+
+.btn-bottom {
+    margin-right: 5px;
+    margin-left: 5px;
+}
